@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+body {
+  background-image: url("./Img/background-black.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148808256.jpg?t=st=1647696426~exp=1647697026~hmac=833252cf45e1906df9d8481f0d386e5eaeec8182ad26e3a13eae2dddeba37ba7&w=1380");
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  line-height: 20px;
+}
+
+.perfil p {
+  color: #949494;
+  line-height: 10px;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 190px;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 2.25vw;
+}
+
+.titulo h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+.titulo p {
+  font-size: 1vw;
+  margin-bottom: 0.3vw;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 8px 16px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.tema button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.link-icon {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--black);
+  transition: color 0.2s;
+}
+
+.link-icon:hover {
+  color: #40e0d0;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./Img/background-black.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 70px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148808256.jpg?t=st=1647696426~exp=1647697026~hmac=833252cf45e1906df9d8481f0d386e5eaeec8182ad26e3a13eae2dddeba37ba7&w=1380");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.dark .container {
+  background-image: url("./Img/background-black.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #f7f7f7;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.dark .projetos {
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148808256.jpg?t=st=1647696426~exp=1647697026~hmac=833252cf45e1906df9d8481f0d386e5eaeec8182ad26e3a13eae2dddeba37ba7&w=1380");
+  background-position: center top;
+  color: #1c1c1c;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.dark .tema button {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.dark .tema button:hover {
+  background: #ffffff;
+  color: #000000;
+}
