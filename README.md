@@ -1,6 +1,6 @@
 # Portfólio
 
-Portfólio desenvolvida na Imersão Dev - Alura
+Portfólio desenvolvido na Imersão Dev - Alura
 
 Link de acesso ao portfólio : https://renanfls.github.io/Portfolio/
 
